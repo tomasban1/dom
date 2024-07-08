@@ -1,3 +1,18 @@
+import { headerAuto, headerData } from "../index.js";
+
+const headerDOM = document.querySelector('header');
+headerDOM.innerHTML = headerAuto(headerData);
+
+
+
+
+
+
+
+
+
+
+
 const formDOM = document.getElementsByTagName('form')[0];
 formDOM.innerHTML = `<button type="button">Click me</button>`;
 

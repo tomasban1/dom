@@ -1,3 +1,10 @@
+import { headerAuto, headerData } from "../index.js";
+
+const headerDOM = document.querySelector('header');
+headerDOM.innerHTML = headerAuto(headerData)
+
+
+
 const h1DOM = document.getElementById('antraste');
 console.log(h1DOM);
 const pDOM = document.getElementsByTagName('p');

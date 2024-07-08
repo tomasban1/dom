@@ -1,0 +1,39 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    background-color: papayawhip;
+    padding: 2rem;
+}
+header{
+    display: flex;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 60px;
+
+}
+article{
+
+}
+img{
+    height: 300px;
+}
+.desc{
+    width: 400px;
+}
